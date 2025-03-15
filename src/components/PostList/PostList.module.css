@@ -1,0 +1,25 @@
+/* PostList.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .postList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .postList li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  button {
+    margin: 0 5px; /* Adds space on both sides */
+  }
+  

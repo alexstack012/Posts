@@ -1,0 +1,11 @@
+/* PostItem.module.css */
+.postItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-right: 5px;
+  }
+  
