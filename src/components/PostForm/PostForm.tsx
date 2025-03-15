@@ -22,7 +22,7 @@ const PostForm = ({ postId, initialData, onSuccess }: PostFormProps) => {
     e.preventDefault();
     try {
       if (isEditing) {
-        const updatedPost = await updatePost(postId!, { title, body, id: postId! });
+        const updatedPost = await updatePost(postId!, { title, body});
         onSuccess(updatedPost);
       } else {
         const posts = await getPosts();
